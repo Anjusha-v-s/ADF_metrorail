@@ -18,7 +18,7 @@
 					"source": {
 						"type": "AzureSqlSource",
 						"sqlReaderQuery": {
-							"value": "SELECT *\nFROM metro_ingestion_control\nWHERE is_active = 1\n",
+							"value": "SELECT *\nFROM dbo.metro_ingestion_control\nWHERE is_active = 1\n",
 							"type": "Expression"
 						},
 						"queryTimeout": "02:00:00",

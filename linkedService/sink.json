@@ -1,0 +1,12 @@
+{
+	"name": "sink",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlsmetrorail.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU1M0JBQzBBLTUzNTQtNDY0RC1BQ0IyLTE1M0RFMjVBNjg3Q18yNjhkNDE5NC0yYTI0LTQzN2UtOTNhOC01MGRjYTRiYTYyNjkiDQp9"
+		}
+	}
+}

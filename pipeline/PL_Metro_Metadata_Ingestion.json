@@ -65,7 +65,7 @@
 								"source": {
 									"type": "AzureSqlSource",
 									"sqlReaderQuery": {
-										"value": "SELECT *\nFROM metro_watermark_tracking\nWHERE source_file_prefix = '@{item().source_file_prefix}'\n",
+										"value": "SELECT *\nFROM dbo.metro_watermark_tracking\nWHERE source_file_prefix = '@{item().source_file_prefix}'\n",
 										"type": "Expression"
 									},
 									"queryTimeout": "02:00:00",
